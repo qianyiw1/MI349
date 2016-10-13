@@ -1,0 +1,22 @@
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: black;
+}
+
+nav {
+  font-size: 20pt;
+}
+
+.highlight {
+  text-align: center;
+  font-size: 25pt;
+  color:white;
+  font-family:serif;;
+}
+
+#specific {
+  font-size: 15pt;
+  font-family: sans-serif;
+  color: white;
+}
