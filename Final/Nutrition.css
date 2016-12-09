@@ -1,0 +1,98 @@
+
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+    margin: 0px;
+    color:white;
+    padding-top: 20px;
+    text-align: center;
+    font: 20px Arial;
+    <A HREF="index.html">Main Page</A>
+    <A HREF="Exercise.html">Exercise</A>
+    <A HREF="Nutrition.html">Nutrition</A>
+    <A HREF="Staff.html">Staff</A>
+}
+
+img {
+  margin: 50px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 90px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+
+  }
+
+section {
+  color: black;
+}
+
+h1, p {
+    margin: 10px;
+}
+
+/* Fixed width container */
+.container {
+    width: 1049px;
+    margin: 0 auto;
+}
+
+header,footer, left {
+  background: #FF6347;
+}
+
+left {
+  margin: 20px;
+  width: 170px;
+}
+
+header {
+  margin:20px;
+  font: bold 25px Arial;
+
+}
+
+nav {
+  font: 10px;
+  background:#FF6347;
+}
+
+footer {
+  margin:10px;
+}
+
+full-width {
+  margin:20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content section {
+    padding: 1em;
+    flex: 1 1 25%;
+    width: 100%;
+}
